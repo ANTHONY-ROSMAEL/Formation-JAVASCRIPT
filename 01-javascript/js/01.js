@@ -66,6 +66,12 @@ unNombre = parsefloat(unNombre);
 console.log(unNombre);
 console.log(typeof unNombre);
 
+//  pour convertir un nombre, entier ou float en string
+unNombre=10;
+var unString = unNombre.toString();
+console.log(unString);
+console.log(typeof unString);
+
 
 /*-------------LA PORTER DES VARIABLES----------------*/
 //les variables déclarer directement à la racine du fichier JS, sont appelées: variable GLOBALES.
