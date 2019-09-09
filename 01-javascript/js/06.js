@@ -73,17 +73,11 @@ function euroToUs (montantEuro, tauxConversion=1.1035) {
         +montantUS 
         +"$"
     );
+    
+   
+    
 
-    var name=prompt("what is your name?");
-    alert("hello" + name);
-
-    var age=prompt("hello" + name + "how old are you ?");
-
-    var anne=.getfullyear();
-    var naissance=anne-age;
-    alert("you were born in"+naissance);
-
-    console.clear;
+    
 
 
 

@@ -51,3 +51,5 @@ console.log(++nb1);// 1, ici js affiche fait l'incrementation avant d'afficher n
 
 
 
+
+
