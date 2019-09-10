@@ -2,12 +2,12 @@
         LES FONCTIONS
 ----------------------------*/
 
-//function bonjour() {   // les instructuins se place entre les accolades
+function bonjour() {   // les instructuins se place entre les accolades
     alert("bonjour ! ");
 }
 
-// j'exécute ma fonction et je déclenche ces instructions.
-//bonjour();
+ //j'exécute ma fonction et je déclenche ces instructions.
+bonjour();
 
 // ici la fonction défini deux arguments.
 //au moment de l'exécuter nous affecterons une valeur 
