@@ -98,13 +98,13 @@ const quantieme=["premier","deuxieme","troisieme"];
 
 console.clear();
 
-for(let i =0; i<acteurs.length; i++){
+//for(let i =0; i<acteurs.length; i++){
     
-    console.log(acteur[i]);
-    console.log('le numero' +i+ 'est'+acteur[i]);
-    console.log(  )
+  //  console.log(acteur[i]);
+  //  console.log('le numero' +i+ 'est'+acteur[i]);
+    //console.log(  )
 
-}
+//}
 
 /*
     EXERCICE :
@@ -123,3 +123,22 @@ const moi=["janvier","fevrier","mars","avril","mai","juin","juillet","aout","sep
 
 console.log(moi [mois]);
 
+/* --
+CONSIGNE :
+
+A partir du tableau "baseDeDonnees" fourni, vous devez mettre en place un système d'authentification.
+Après avoir demandé à votre utilisateur son EMAIL et MOT DE PASSE,
+et après avoir vérifié ses informations, vous lui souhaiterez la bienvenue
+avec son nom et prénom (document.write);
+
+En cas d'échec, vous afficherez une ALERT pour l'informer de l'erreur.
+-- */
+
+const base = [
+    {'prenom':'Hugo','nom':'LIEGEARD','email':'wf3@hl-media.fr','mdp':'wf3'},
+    {'prenom':'Rodrigue','nom':'NOUEL','email':'rodrigue@hl-media.fr','mdp':'wf3'},
+    {'prenom':'Nathanael','nom':'ORDONNE','email':'nathanael.d@hl-media.fr','mdp':'wf3'}
+    ];
+    
+    console.log(base);
+    
